@@ -22,7 +22,7 @@ streamlit run app.py
 ## Files to upload to GitHub
 
 ```text
-session12-field-report-app/
+mobile-app-data-vis/
 ├── app.py
 ├── requirements.txt
 ├── README.md
