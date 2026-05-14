@@ -79,7 +79,7 @@ def create_pdf(researcher, title, notes, latitude, longitude, photo_file):
         pdf.image(image_path, x=30, w=150)
 
     # Return PDF as bytes
-    return bytes(pdf.output(dest="S"))
+    return pdf.output(dest="S").encode("latin-1")
 
 
 # -----------------------------
